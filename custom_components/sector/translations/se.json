@@ -1,0 +1,37 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Kontot existerar redan",
+            "reauth_successful": "Återautentisering lyckades"
+        },
+        "error": {
+            "auth_error": "Användarnamn eller lösenord är inte korrekt",
+            "connection_error": "Kunde inte ansluta"
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "username": "E-post adress",
+                    "password": "Lösenord",
+                    "code_format": "Längd på koden för larm och lås",
+                    "temp": "Använd temp sensorer"
+                }
+            },
+            "reauth_confirm": {
+                "data": {
+                    "username": "E-post adress",
+                    "password": "Lösenord"
+                }
+            }
+        }
+    },
+    "options": {
+        "step": {
+            "init": {
+                "data": {
+                    "code_format": "Längd på koden för larm och lås"
+                }
+            }
+        }
+    }
+}
